@@ -1,0 +1,2 @@
+STAS_INIT_PREPARING_ERROR
+Object reference not set to an instance of an object.

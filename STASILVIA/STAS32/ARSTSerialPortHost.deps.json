@@ -1,0 +1,154 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ARSTSerialPortHost/1.0.0": {
+        "dependencies": {
+          "System.IO.Ports": "8.0.0-preview.7.23375.6"
+        },
+        "runtime": {
+          "ARSTSerialPortHost.dll": {}
+        }
+      },
+      "runtime.linux-arm.runtime.native.System.IO.Ports/8.0.0-preview.7.23375.6": {
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-arm64.runtime.native.System.IO.Ports/8.0.0-preview.7.23375.6": {
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-x64.runtime.native.System.IO.Ports/8.0.0-preview.7.23375.6": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.native.System.IO.Ports/8.0.0-preview.7.23375.6": {
+        "dependencies": {
+          "runtime.linux-arm.runtime.native.System.IO.Ports": "8.0.0-preview.7.23375.6",
+          "runtime.linux-arm64.runtime.native.System.IO.Ports": "8.0.0-preview.7.23375.6",
+          "runtime.linux-x64.runtime.native.System.IO.Ports": "8.0.0-preview.7.23375.6",
+          "runtime.osx-arm64.runtime.native.System.IO.Ports": "8.0.0-preview.7.23375.6",
+          "runtime.osx-x64.runtime.native.System.IO.Ports": "8.0.0-preview.7.23375.6"
+        }
+      },
+      "runtime.osx-arm64.runtime.native.System.IO.Ports/8.0.0-preview.7.23375.6": {
+        "runtimeTargets": {
+          "runtimes/osx-arm64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.osx-x64.runtime.native.System.IO.Ports/8.0.0-preview.7.23375.6": {
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.IO.Ports/8.0.0-preview.7.23375.6": {
+        "dependencies": {
+          "runtime.native.System.IO.Ports": "8.0.0-preview.7.23375.6"
+        },
+        "runtime": {
+          "lib/net6.0/System.IO.Ports.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.37506"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net6.0/System.IO.Ports.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.37506"
+          },
+          "runtimes/win/lib/net6.0/System.IO.Ports.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.37506"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ARSTSerialPortHost/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtime.linux-arm.runtime.native.System.IO.Ports/8.0.0-preview.7.23375.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bglHdp8l8Eb19QWGeInTyKaYFTyOm8td80pKoZBEJ0EutsRjADZ08UyNwR1kHa8vO3yraUWDumTfbQrYtCL1jw==",
+      "path": "runtime.linux-arm.runtime.native.system.io.ports/8.0.0-preview.7.23375.6",
+      "hashPath": "runtime.linux-arm.runtime.native.system.io.ports.8.0.0-preview.7.23375.6.nupkg.sha512"
+    },
+    "runtime.linux-arm64.runtime.native.System.IO.Ports/8.0.0-preview.7.23375.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sNGSMW49fOa0l3ZuqWF1EPw+cX5eJsuZKpXZLuGTT7jELdXMYJe9ieUC/8h/Ynl42xqgnizo+mNoGR3wMRUf4g==",
+      "path": "runtime.linux-arm64.runtime.native.system.io.ports/8.0.0-preview.7.23375.6",
+      "hashPath": "runtime.linux-arm64.runtime.native.system.io.ports.8.0.0-preview.7.23375.6.nupkg.sha512"
+    },
+    "runtime.linux-x64.runtime.native.System.IO.Ports/8.0.0-preview.7.23375.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZullfYuv3BKxYofDkH/flo0HgEwAIQOaD2bbUrNcenrvVXDNGY5X21K220fFaP1f0ZF4l0AgXUajOBEATPF1GA==",
+      "path": "runtime.linux-x64.runtime.native.system.io.ports/8.0.0-preview.7.23375.6",
+      "hashPath": "runtime.linux-x64.runtime.native.system.io.ports.8.0.0-preview.7.23375.6.nupkg.sha512"
+    },
+    "runtime.native.System.IO.Ports/8.0.0-preview.7.23375.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WjtqXk8lgBDdl1vUS78Y0s7faPb3QDJm9YgGMIGx/dpGioxEdK4rnKeN1cSLi/fgrpYNhc4vYaFtZsbFgKShbg==",
+      "path": "runtime.native.system.io.ports/8.0.0-preview.7.23375.6",
+      "hashPath": "runtime.native.system.io.ports.8.0.0-preview.7.23375.6.nupkg.sha512"
+    },
+    "runtime.osx-arm64.runtime.native.System.IO.Ports/8.0.0-preview.7.23375.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vpu/qJvTmuh6Wn96zv2JjjESH1VfKOEEtt2dgSs1y6ohcP2tM9rVHYBaSir2ZRMM0aV1vFl4raSHY0+/futYAQ==",
+      "path": "runtime.osx-arm64.runtime.native.system.io.ports/8.0.0-preview.7.23375.6",
+      "hashPath": "runtime.osx-arm64.runtime.native.system.io.ports.8.0.0-preview.7.23375.6.nupkg.sha512"
+    },
+    "runtime.osx-x64.runtime.native.System.IO.Ports/8.0.0-preview.7.23375.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Jdx0LVPDBN8EUjtMq7cX6Wk7GwmLGj0YMau1+ZOyaPecvD2Mq3slDDk8lo76X7P0jC5B27q0gyNZWaoZL+VUsQ==",
+      "path": "runtime.osx-x64.runtime.native.system.io.ports/8.0.0-preview.7.23375.6",
+      "hashPath": "runtime.osx-x64.runtime.native.system.io.ports.8.0.0-preview.7.23375.6.nupkg.sha512"
+    },
+    "System.IO.Ports/8.0.0-preview.7.23375.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wvPji7H6/XK9+q6t/NxUCjvqcBvpvGsvyi/nsvaHvmTkT1q8dzYGcVRysDK+2dUbw8F7OYOFxqimiB/0COCKvQ==",
+      "path": "system.io.ports/8.0.0-preview.7.23375.6",
+      "hashPath": "system.io.ports.8.0.0-preview.7.23375.6.nupkg.sha512"
+    }
+  }
+}

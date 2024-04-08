@@ -1,0 +1,102 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Stasilvia Boot Screen/1.0.0": {
+        "dependencies": {
+          "CircularProgressBar_NET5": "3.0.0",
+          "Microsoft.Win32.Registry": "5.0.0"
+        },
+        "runtime": {
+          "Stasilvia Boot Screen.dll": {}
+        }
+      },
+      "CircularProgressBar_NET5/3.0.0": {
+        "dependencies": {
+          "WinFormAnimation-NET5": "2.0.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/CircularProgressBar_NET5.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Win32.Registry/5.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "System.Security.AccessControl/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {},
+      "WinFormAnimation-NET5/2.0.0": {
+        "runtime": {
+          "lib/net5.0/WinFormAnimation_NET5.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Stasilvia Boot Screen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CircularProgressBar_NET5/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qtg1nEX2ZvLquRQXXkSFC9aJ8jCn/VPgjWwsHEvFrORWh8JvO/vzE/kCwIYXulAisk3P7RVSIBd7VACcuYShAA==",
+      "path": "circularprogressbar_net5/3.0.0",
+      "hashPath": "circularprogressbar_net5.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
+      "path": "microsoft.win32.registry/5.0.0",
+      "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
+      "path": "system.security.accesscontrol/5.0.0",
+      "hashPath": "system.security.accesscontrol.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "path": "system.security.principal.windows/5.0.0",
+      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "WinFormAnimation-NET5/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xsqrJBJUGVCcdMIAr2gGstpVyiBR2VXvbl8lMTEpCiSQ6xy3WL679tc27nBZoyOgaZQ2Jpi7j8b7WEmPztOtdg==",
+      "path": "winformanimation-net5/2.0.0",
+      "hashPath": "winformanimation-net5.2.0.0.nupkg.sha512"
+    }
+  }
+}
